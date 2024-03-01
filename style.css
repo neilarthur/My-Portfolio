@@ -1,0 +1,165 @@
+@media only screen and (max-width: 600px) {
+    .body {
+        width: 100px;
+        height: 100px;
+    }
+}
+.body{
+    margin: auto;
+}
+:root{
+    --bg-color: rgb(255, 255, 255);
+    --text-color: rgb(0, 0, 0); 
+    --main-color:  rgb(28, 75, 130); 
+
+    --big-font: 5rem;
+    --p-font: 1.2rem;
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.navbar .nav-item{
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 0 25px;
+    transition: all ease .50s;
+}
+.navbar a:hover{
+    color: var(--main-color);
+}
+.navbar .nav-item a.active{
+    color: var(--main-color);
+}
+.home .socials .social-item i{
+    font-size: 38px;
+    margin-top: 5px;
+    padding: 0px 15px 0px;
+    color: rgb(28, 75, 130);
+}
+.home .socials .social-item i:hover{
+    color: var(--text-color);
+}
+.body{
+    background-color: var(--bg-color);
+}
+.home{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.con2 p{
+    text-align: justify;
+}
+.home-text span{
+    padding: 5px 25px;
+    background: linear-gradient(130.08deg ,  #4301eb 100%);
+    border: 1px solid #3b3b3b;
+    border-radius: 100px;
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.home-text h1{
+    font-size: var(--big-font);
+    margin: 23px 0;
+    color: var(--main-color);
+}
+.home-text p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.card1{
+    border: 10px solid  rgb(28, 75, 130);
+    transition: 0.3s;
+    border-radius: 500px;
+    width: 500px;
+    height: 500px;
+}
+.card1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 500px;
+}
+.btn{
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    border: 2px solid;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: all 0.6s rase-in-out;
+}
+.card{
+    margin: 0 15px 15px 15px;
+    width: 18rem;
+    transition: all 0.6s rase-in-out;
+    box-shadow: 10px 10px rgba(221, 219, 219, 0.793);
+}
+.card:hover{
+    transform: scale(1.1);
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    font-size: 20px;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 4px;
+    height: 100%;
+    z-index: 500;
+    margin-top: 5px;
+}
+ul.timeline > li {
+    margin: 25px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 500;
+    margin-top: 5px;
+}
+.socials a{
+    text-decoration: none;
+}
+
+
+.form-card{
+    background-color: var(--main-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px 100px 100px 100px;
+    border-radius: 50px;
+}
+.form-card .formcol{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    color: #3b3b3b;
+}
+.form-card .addresscol{
+    padding: 50px;
+    color: #ffffff;
+}
+.form-card .addresscol i{
+    font-size: 40px;
+}
